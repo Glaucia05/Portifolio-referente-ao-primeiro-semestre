@@ -1,0 +1,297 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&display=swap');
+
+.principal{
+    margin: 0%;
+    background-color: hsla(274, 58%, 67%, 0.189);
+    padding: 40px;
+    border: 5px solid black;
+}
+.principal1{
+    margin: 0%;
+    background-color: rgb(207, 168, 228);
+    padding: 40px;
+    border: 5px solid black;
+    display:flex;}
+
+img{
+    display: block; 
+    margin-bottom: 10px; 
+    width: 100%;
+    height: 100%;
+     
+
+}
+
+embed{
+    display: block;
+    margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+#nome{
+  color:rgb(126, 34, 130);
+  padding: 6%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  background-color: beige;
+}
+
+.nome{
+  background-image: url("imagem/crystal.jpg");
+  background-attachment: fixed;
+  display:flex;
+  background-color: rgba(170, 117, 211, 0.71);
+  padding: 0%;
+  border: 5px solid black;
+  padding: 40px;
+  position: relative;
+
+}
+
+#mate{
+  display:flex;
+}
+
+.flexbox div{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 30px;
+ 
+}
+.flexbox {
+  display:flex;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.rest{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+
+.botao{
+  width: 50px; 
+  height: 50px; 
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+.botao1{
+  width: 50px; 
+  height: 50px;
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  right: 5%;
+  bottom: 5px;
+}
+
+
+
+
+
+.Corpo{
+ background-color: hsla(274, 58%, 67%, 0.189);
+}
+
+.video{
+
+  height: 360px;
+  width: 640px;
+  padding-bottom: 50px;
+}
+
+.voltar{
+  position: absolute ;
+  padding-bottom: 100px;
+}
+
+#divFilo{
+  display: inline;
+  padding: 100px;
+
+}
+
+.lay{
+  padding: 5%;
+  
+}
+
+#img{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  top: 0px; 
+  left: 60px; 
+    }
+#imgEu{
+  position: absolute; 
+  top: 130px; 
+  left: 150px; 
+  border:5px solid rgb(155, 46, 198) ;
+  width: 20%;
+  height:50%;
+}
+@media (max-width: 431px){
+
+ .flexbox{
+  display:block;
+ }
+
+#nome{
+  color:rgb(126, 34, 130);
+  padding: 6%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  background-color: beige;
+}
+
+.nome{
+  background-image: url("imagem/crystal.jpg");
+  background-attachment: fixed;
+  display:block;
+  background-color: rgba(170, 117, 211, 0.71);
+  padding: 0%;
+  border: 5px solid black;
+  padding: 20px;
+  position: relative;
+
+}
+#imgEu{
+  position: absolute; 
+  top: 160px; 
+  left: 115px; 
+  border:5px solid rgb(155, 46, 198) ;
+  width: 40%;
+  height:20%;
+}
+#img{
+  width: 60%;
+  height: 60%;
+  position: relative;
+ top: 100px; 
+  left: 80px; 
+    }
+    .botao1{
+  width: 50px; 
+  height: 50px;
+  display:none; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  right: 5%;
+  bottom: 5px;
+}
+.video{
+  height: 160px;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+#divFilo{
+  display: block;
+  padding: 0px;
+
+}
+embed{
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+}
+
+
+
+@media (max-width: 1024px){
+ .flexbox{
+  display:block;
+ }
+
+#nome{
+  color:rgb(126, 34, 130);
+  padding: 6%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  background-color: beige;
+}
+
+.nome{
+  background-image: url("imagem/crystal.jpg");
+  background-attachment: fixed;
+  display:block;
+  background-color: rgba(170, 117, 211, 0.71);
+  padding: 0%;
+  border: 5px solid black;
+  padding: 20px;
+  position: relative;
+
+}
+#imgEu{
+  position: absolute; 
+  top: 200px; 
+  left: 115px; 
+  border:5px solid rgb(155, 46, 198) ;
+  width: 50%;
+  height:30%;
+}
+#img{
+  width: 60%;
+  height: 60%;
+  position: relative;
+ top: 100px; 
+  left: 80px; 
+    }
+
+
+.video{
+  height: 100%;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+#divFilo{
+  display: block;
+  padding: 0px;
+
+}
+embed{
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+}
