@@ -114,7 +114,7 @@ embed{
  background-color: hsla(274, 58%, 67%, 0.189);
 }
 
-video{
+.video{
 
   height: 360px;
   width: 640px;
@@ -209,7 +209,7 @@ video{
   right: 5%;
   bottom: 5px;
 }
-video{
+.video{
   height: 160px;
   max-width: 100%;
   padding-bottom: 50px;
@@ -277,9 +277,8 @@ embed{
     }
 
 
-video{
-  width:560;
-   height:315;
+.video{
+  height: 100%;
   max-width: 100%;
   padding-bottom: 50px;
 }
